@@ -2,6 +2,7 @@ name: OSV.dev Dependency Review
 on:
  - pull_request
 permissions:
+  actions: read
   pull-requests: write
   contents: read
   security-events: write
